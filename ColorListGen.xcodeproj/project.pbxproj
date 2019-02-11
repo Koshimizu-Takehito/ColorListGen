@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AB10687D22115CA0001E8C63 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB10687C22115CA0001E8C63 /* main.swift */; };
-		AB8487CC220FE6850063B96C /* libColorSetKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB8487CB220FE6850063B96C /* libColorSetKit.a */; };
+		ABCF7568221180920069AC1E /* libColorSetKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ABCF7567221180920069AC1E /* libColorSetKit.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,7 +26,7 @@
 /* Begin PBXFileReference section */
 		AB10687C22115CA0001E8C63 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		AB8487C0220FE5710063B96C /* color_list_gen */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = color_list_gen; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB8487CB220FE6850063B96C /* libColorSetKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libColorSetKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABCF7567221180920069AC1E /* libColorSetKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libColorSetKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,7 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB8487CC220FE6850063B96C /* libColorSetKit.a in Frameworks */,
+				ABCF7568221180920069AC1E /* libColorSetKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,7 +77,7 @@
 		AB8487CA220FE6850063B96C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AB8487CB220FE6850063B96C /* libColorSetKit.a */,
+				ABCF7567221180920069AC1E /* libColorSetKit.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

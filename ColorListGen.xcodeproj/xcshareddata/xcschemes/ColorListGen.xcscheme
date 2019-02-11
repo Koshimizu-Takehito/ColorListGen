@@ -31,7 +31,7 @@
                BlueprintIdentifier = "AB850918220EAEF500D54F13"
                BuildableName = "libColorSetKit.a"
                BlueprintName = "ColorSetKit"
-               ReferencedContainer = "container:../ColorSetKit/ColorSetKit.xcodeproj">
+               ReferencedContainer = "container:ColorSetKit/ColorSetKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -43,6 +43,15 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "AB8487BF220FE5710063B96C"
+            BuildableName = "color_list_gen"
+            BlueprintName = "color_list_gen"
+            ReferencedContainer = "container:ColorListGen.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>

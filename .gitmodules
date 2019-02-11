@@ -1,0 +1,3 @@
+[submodule "ColorSetKit"]
+	path = ColorSetKit
+	url = git@github.com:Koshimizu-Takehito/ColorSetKit.git
