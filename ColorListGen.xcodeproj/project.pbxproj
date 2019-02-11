@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AB8487C4220FE5710063B96C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8487C3220FE5710063B96C /* main.swift */; };
+		AB8487CC220FE6850063B96C /* libColorSetKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB8487CB220FE6850063B96C /* libColorSetKit.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +24,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		AB8487C0220FE5710063B96C /* ColorListGenerator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ColorListGenerator; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB8487C0220FE5710063B96C /* color_list_gen */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = color_list_gen; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB8487C3220FE5710063B96C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		AB8487CB220FE6850063B96C /* libColorSetKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libColorSetKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB8487CC220FE6850063B96C /* libColorSetKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,7 +44,8 @@
 		AB8487B7220FE5710063B96C = {
 			isa = PBXGroup;
 			children = (
-				AB8487C2220FE5710063B96C /* ColorListGenerator */,
+				AB8487C2220FE5710063B96C /* ColorListGen */,
+				AB8487CA220FE6850063B96C /* Frameworks */,
 				AB8487C1220FE5710063B96C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,25 +53,33 @@
 		AB8487C1220FE5710063B96C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AB8487C0220FE5710063B96C /* ColorListGenerator */,
+				AB8487C0220FE5710063B96C /* color_list_gen */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AB8487C2220FE5710063B96C /* ColorListGenerator */ = {
+		AB8487C2220FE5710063B96C /* ColorListGen */ = {
 			isa = PBXGroup;
 			children = (
 				AB8487C3220FE5710063B96C /* main.swift */,
 			);
-			path = ColorListGenerator;
+			path = ColorListGen;
+			sourceTree = "<group>";
+		};
+		AB8487CA220FE6850063B96C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB8487CB220FE6850063B96C /* libColorSetKit.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AB8487BF220FE5710063B96C /* ColorListGenerator */ = {
+		AB8487BF220FE5710063B96C /* color_list_gen */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AB8487C7220FE5710063B96C /* Build configuration list for PBXNativeTarget "ColorListGenerator" */;
+			buildConfigurationList = AB8487C7220FE5710063B96C /* Build configuration list for PBXNativeTarget "color_list_gen" */;
 			buildPhases = (
 				AB8487BC220FE5710063B96C /* Sources */,
 				AB8487BD220FE5710063B96C /* Frameworks */,
@@ -77,9 +89,9 @@
 			);
 			dependencies = (
 			);
-			name = ColorListGenerator;
+			name = color_list_gen;
 			productName = ColorListGenerator;
-			productReference = AB8487C0220FE5710063B96C /* ColorListGenerator */;
+			productReference = AB8487C0220FE5710063B96C /* color_list_gen */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -96,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AB8487BB220FE5710063B96C /* Build configuration list for PBXProject "ColorListGenerator" */;
+			buildConfigurationList = AB8487BB220FE5710063B96C /* Build configuration list for PBXProject "ColorListGen" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -108,7 +120,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AB8487BF220FE5710063B96C /* ColorListGenerator */,
+				AB8487BF220FE5710063B96C /* color_list_gen */,
 			);
 		};
 /* End PBXProject section */
@@ -261,7 +273,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AB8487BB220FE5710063B96C /* Build configuration list for PBXProject "ColorListGenerator" */ = {
+		AB8487BB220FE5710063B96C /* Build configuration list for PBXProject "ColorListGen" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AB8487C5220FE5710063B96C /* Debug */,
@@ -270,7 +282,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AB8487C7220FE5710063B96C /* Build configuration list for PBXNativeTarget "ColorListGenerator" */ = {
+		AB8487C7220FE5710063B96C /* Build configuration list for PBXNativeTarget "color_list_gen" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AB8487C8220FE5710063B96C /* Debug */,
