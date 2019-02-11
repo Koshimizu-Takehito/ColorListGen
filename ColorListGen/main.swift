@@ -5,7 +5,6 @@
 //  Created by Takehito Koshimizu on 2019/02/10.
 //
 
-import Foundation
+import ColorSetKit
 
-print("Hello, World!")
-
+ColorSets.ofCurrentDir().saveToUsersLibraryColors()
