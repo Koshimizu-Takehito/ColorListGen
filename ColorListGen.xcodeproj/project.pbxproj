@@ -60,9 +60,9 @@
 		AB8487B7220FE5710063B96C = {
 			isa = PBXGroup;
 			children = (
-				AB10687A22115CA0001E8C63 /* Sources */,
 				AB8487CA220FE6850063B96C /* Frameworks */,
 				AB8487C1220FE5710063B96C /* Products */,
+				AB10687A22115CA0001E8C63 /* Sources */,
 			);
 			sourceTree = "<group>";
 		};
