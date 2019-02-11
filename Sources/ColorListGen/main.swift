@@ -7,4 +7,6 @@
 
 import ColorSetKit
 
-ColorSets.ofCurrentDir().saveToUsersLibraryColors()
+if #available(macOS 10.12, *) {
+    ColorSets.ofCurrentDir().saveToUsersLibraryColors()
+}

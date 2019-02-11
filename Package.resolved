@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "ColorSetKit",
+        "repositoryURL": "https://github.com/Koshimizu-Takehito/ColorSetKit.git",
+        "state": {
+          "branch": null,
+          "revision": "93ae577ac61b57c44ee889ac9e682d2d5a75cb37",
+          "version": "0.9.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
