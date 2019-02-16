@@ -9,7 +9,7 @@
 import ColorSetKit
 
 if #available(macOS 10.12, *) {
-    ColorSets.underCurrentDirectory().save()
+    ColorSets.currentDir().save()
 }
 
 #endif
