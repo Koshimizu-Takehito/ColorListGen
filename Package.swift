@@ -5,6 +5,9 @@ import PackageDescription
 
 let package = Package(
     name: "ColorListGen",
+    products: [
+        .executable(name: "xccolorlistgen", targets: ["ColorListGen"]),
+    ],
     dependencies: [
         .package(url: "https://github.com/Koshimizu-Takehito/ColorSetKit.git", from: "0.1.0"),
     ],
