@@ -7,7 +7,7 @@ BINARIES_FOLDER=/usr/local/bin
 .PHONY: setup clean installables install uninstall
 
 setup:
-	git submodule update --init --recursive --force
+	git submodule update --init --recursive
 
 clean:
 	swift package clean
