@@ -8,5 +8,5 @@
 import ColorSetKit
 
 if #available(macOS 10.12, *) {
-    ColorSets.currentDir().write()
+    try ColorSets.currentDir().write()
 }
