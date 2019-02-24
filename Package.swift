@@ -9,8 +9,8 @@ let package = Package(
         .executable(name: "xccolorlistgen", targets: ["ColorListGen"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/Koshimizu-Takehito/ShellKit.git", from: "0.1.0"),
-        .package(url: "https://github.com/Koshimizu-Takehito/ColorSetKit.git", from: "0.1.0"),
+        .package(url: "https://github.com/Koshimizu-Takehito/ShellKit.git", from: "0.9.1"),
+        .package(url: "https://github.com/Koshimizu-Takehito/ColorSetKit.git", from: "0.9.4"),
     ],
     targets: [
         .target(
