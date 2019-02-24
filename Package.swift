@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "ColorListGen",
     products: [
-        .executable(name: "xccolorlistgen", targets: ["ColorListGen"]),
+        .executable(name: "xccolorlist", targets: ["ColorListGen"]),
     ],
     dependencies: [
         .package(url: "https://github.com/Koshimizu-Takehito/ShellKit.git", from: "0.9.2"),

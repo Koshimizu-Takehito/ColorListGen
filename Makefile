@@ -1,6 +1,6 @@
 #!/usr/bin/xcrun make -f
 
-NAME=xccolorlistgen
+NAME=xccolorlist
 EXECUTABLE=./.build/release/$(NAME)
 BINARIES_FOLDER=/usr/local/bin
 
@@ -13,10 +13,12 @@ clean:
 	swift package clean
 
 installables:
-	swift build -c release -Xswiftc -static-stdlib
+	swift build -c release -Xswiftc -static-stdlib	
 
 install: installables
 	sudo cp -f "$(EXECUTABLE)" "$(BINARIES_FOLDER)"
+	
+cleaninstall: clean install
 
 uninstall:
 	rm -f "$(BINARIES_FOLDER)/$(NAME)"
